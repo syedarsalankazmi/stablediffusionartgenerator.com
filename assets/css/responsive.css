@@ -1,0 +1,285 @@
+/* X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+  .hero-banner.hero-banner_v2 .banner-img {
+    margin-top: -100px;
+  }
+}
+/* Medium devices (tablets, laptops between 992px to 1200px) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  :root {
+    --font-size--h1: 44px;
+    --font-size--h2: 32px;
+    --font-size--h3: 28px;
+    --font-size--h4: 22px;
+    --font-size--h5: 18px;
+    --font-size--h6: 18px;
+    --font-base: 15px;
+  }
+  .hero-banner.hero-banner_v1 {
+    padding-top: 160px;
+  }
+  .hero-banner.hero-banner_v2 {
+    padding-top: 160px;
+  }
+  .hero-banner.hero-banner_v2 .banner-img {
+    margin-top: -80px;
+  }
+  .hero-banner.hero-banner_v3 {
+    padding-top: 160px;
+  }
+  .case-area_v2 .case-grid {
+    --size: 308px;
+  }
+  .breadcrumb-area {
+    padding: 120px 0 70px;
+  }
+  .contact-area .card {
+    padding: 20px;
+  }
+  .content-works-area_v2 .card_shape svg {
+    width: 35px;
+    height: 100%;
+  }
+  .widget-area .widget-posts .blog-inline {
+    flex-direction: column;
+  }
+  .widget-area .widget-posts .blog-inline .blog_img {
+    width: 100%;
+  }
+}
+/* Medium devices (tablets, Between 768px to 992px) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  :root {
+    --font-size--h1: 44px;
+    --font-size--h2: 32px;
+    --font-size--h3: 28px;
+    --font-size--h4: 22px;
+    --font-size--h5: 18px;
+    --font-size--h6: 18px;
+  }
+  .hero-banner.hero-banner_v1 {
+    padding-top: 160px;
+  }
+  .hero-banner.hero-banner_v2 {
+    padding-top: 160px;
+  }
+  .hero-banner.hero-banner_v2 .banner-img {
+    margin-top: -80px;
+  }
+  .hero-banner.hero-banner_v3 {
+    padding-top: 160px;
+  }
+  .case-area_v2 .case-grid {
+    --size: 348px;
+  }
+  .gallery-area_v1 .grid {
+    -moz-columns: 2 auto;
+    columns: 2 auto;
+  }
+  .gallery-area_v2 .grid {
+    -moz-columns: 3 auto;
+    columns: 3 auto;
+  }
+  .content-works-area_v2 .card_shape svg {
+    width: 35px;
+    height: 100%;
+  }
+  .img-works-area_v2 .bg-shape {
+    border-radius: var(--radius-xl);
+    background: var(--bg-primary-light);
+  }
+  .img-works-area_v2 .bg-shape svg {
+    display: none;
+  }
+  .feature-area_v1 .features-item {
+    gap: 25px;
+  }
+  .breadcrumb-area {
+    padding: 140px 0 90px;
+  }
+}
+/* Small devices (landscape phones, less than 768px) */
+@media only screen and (max-width: 767.98px) {
+  /* Reset CSS */
+  :root {
+    --font-base: 15px;
+    --font-sm: 12px;
+    --font-xsm: 10px;
+    --font-lg: 16px;
+    --font-size--h1: 36px;
+    --font-size--h2: 32px;
+    --font-size--h3: 22px;
+    --font-size--h4: 20px;
+    --font-size--h5: 16px;
+    --font-size--h6: 15px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 15px;
+  }
+  .ptb-100 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .ptb-70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .pt-100 {
+    padding-top: 70px;
+  }
+  .pt-70 {
+    padding-top: 40px;
+  }
+  .pt-60 {
+    padding-top: 30px !important;
+  }
+  .pb-100 {
+    padding-bottom: 70px;
+  }
+  .pb-75 {
+    padding-bottom: 45px;
+  }
+  .pb-70 {
+    padding-bottom: 40px;
+  }
+  .pb-60 {
+    padding-bottom: 30px !important;
+  }
+  .pb-30 {
+    padding-bottom: 20px !important;
+  }
+  .px-5 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .px-60 {
+    padding-inline: 20px;
+  }
+  .btn-lg,
+  .btn-md {
+    padding: 12px 26px;
+    font-size: var(--font-base);
+  }
+  .w-sm-100 {
+    width: 100% !important;
+  }
+  .w-sm-75 {
+    width: 100% !important;
+  }
+  .go-top {
+    width: 35px;
+    height: 35px;
+    font-size: 22px;
+  }
+  .title-shape {
+    display: none;
+  }
+  .title-md {
+    font-size: 22px;
+  }
+  .header-area .main-responsive-nav .logo {
+    max-width: 120px;
+  }
+  .hero-banner.hero-banner_v1 {
+    padding-top: 130px;
+  }
+  .hero-banner.hero-banner_v2 {
+    padding-top: 130px;
+  }
+  .hero-banner.hero-banner_v2 .banner-img {
+    margin-top: 0;
+  }
+  .hero-banner.hero-banner_v3 {
+    padding-top: 130px;
+  }
+  .about-area_v2 .info-list li {
+    flex-wrap: wrap;
+  }
+  .gallery-area_v2 .grid,
+  .gallery-area_v1 .grid {
+    -moz-columns: 2 auto;
+    columns: 2 auto;
+  }
+  .testimonial-area_v2 .slider-item {
+    flex-wrap: wrap;
+  }
+  .content-works-area_v2 .card_shape svg {
+    width: 35px;
+    height: 100%;
+  }
+  .img-works-area_v2 .bg-shape {
+    background-color: var(--bg-primary-light);
+  }
+  .img-works-area_v2 .bg-shape svg {
+    display: none;
+  }
+  .tabs-navigation {
+    overflow: hidden;
+    overflow-x: auto;
+  }
+  .tabs-navigation .nav {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow: unset;
+  }
+  .tabs-navigation .nav li {
+    flex: 0 0 auto;
+  }
+  .footer-area .footer-links {
+    gap: 15px;
+  }
+  .footer-area .footer-widget h5 {
+    margin-bottom: 20px;
+  }
+  .breadcrumb-area {
+    padding-top: 125px;
+    padding-bottom: 70px;
+  }
+  .blog-details-area .blog_lg {
+    border-radius: 0;
+  }
+  .blog-details-area .blog_lg .blog_img {
+    border-radius: var(--radius-md);
+  }
+  .blog-details-area .blog_lg .blog_content {
+    position: static;
+    background: transparent;
+    padding: 0;
+    padding-top: 20px;
+  }
+  .blog-details-area .blog_lg .blog_content * {
+    color: var(--text-dark);
+  }
+  .blog-details-area .blog_lg .blog_content li a {
+    color: var(--text-medium);
+  }
+  .feature-area_v1 .features-item {
+    gap: 25px;
+  }
+}
+/* Small devices (landscape phones, less than 576px) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .case-area_v2 .case-grid {
+    --size: 258px;
+  }
+}
+/* Small devices (landscape phones, less than 576px) */
+@media only screen and (max-width: 575.98px) {
+  .p-30 {
+    padding: 20px !important;
+  }
+  .p-25 {
+    padding: 20px !important;
+  }
+  .contact-area .card {
+    padding: 20px;
+  }
+  .case-area_v2 .case-grid {
+    justify-content: center;
+  }
+  .gallery-area_v2 .grid,
+  .gallery-area_v1 .grid {
+    -moz-columns: auto;
+    columns: auto;
+  }
+}

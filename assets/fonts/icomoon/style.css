@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?sk6sdm");
+  src: url("fonts/icomoon.eot?sk6sdm#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?sk6sdm") format("truetype"),
+    url("fonts/icomoon.woff?sk6sdm") format("woff"),
+    url("fonts/icomoon.svg?sk6sdm#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ico-"],
+[class*=" ico-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-browser:before {
+  content: "\e900";
+}
+.ico-cv:before {
+  content: "\e901";
+}
+.ico-flash:before {
+  content: "\e902";
+}
+.ico-image:before {
+  content: "\e903";
+}
+.ico-job-offer:before {
+  content: "\e904";
+}
+.ico-presentation:before {
+  content: "\e905";
+}
+.ico-product:before {
+  content: "\e906";
+}
+.ico-quality:before {
+  content: "\e907";
+}
+.ico-seo:before {
+  content: "\e908";
+}
